@@ -27,7 +27,7 @@
 
 # Dockerfile to generate an example container, running example.nl
 
-FROM auth-powerdns-falcon512-sqisign1:latest
+FROM ghcr.io/sidn/pqc-auth-powerdns:latest
 
 # Copy configuration files
 COPY pdns.conf /var/lib/powerdns/pdns.conf
